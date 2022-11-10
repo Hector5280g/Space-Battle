@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Game</title>
+  
+</head>
+<body>
+    
+    <center width="100" height="100">
+        <buttonaction="" method="get" id="searchform" class="button">
+        <input class="game-button" type="submit" id="hit" value="Play " onclick="Submit()" class="btn">
+      </button>
+    </center>
+    <div class="controls">
+        <div class="moves">
+          <h3>** Moves & Instructions Are Below **</h3>
+        </div>
+        <h4>To attack first ship with lasers use/type hero.laser(Alien1)</h4>
+        <h4>To attack first ship with missles use/type hero.attack(Alien1)</h4>
+        <h4>To laser or missle the second ship replace al1 above with Alien2</h4>
+        <h4>
+          It is the same with subsequent enemies... Alien3 ... Alien4 ... Alien5 ... Alien6 ... Alien 7
+        </h4>
+        <h4>
+          hero.laser(Alien2) ... hero.laser(Alien3 ) or hero.attack(Alien4) ...
+          hero.attack(Alien2) and so on ...
+        </h4>
+        <h4>
+          To check your hull strength (health) use/type hero.announceHealth()
+        </h4>
+    <script src="app.js"></script>
+</body>
+</html>
